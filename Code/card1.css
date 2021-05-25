@@ -1,0 +1,52 @@
+body {
+  text-align: justify;
+  font-size: 100%;
+  margin: 0;
+}
+/* General styles - put these straight into your stylesheet */
+.card {
+  background-color: lightgray;
+  min-height: 100%;
+  max-width: 30%;
+  overflow: hidden;
+  padding: 15px;
+}
+section div {
+  border: 2px solid black;
+  background-color: rgb(233, 38, 38);
+  border-radius: 1rem;
+}
+header h2 {
+  margin-left: 10px;
+  text-shadow: 1px 1px 2px black;
+}
+
+/* article-- mid */
+article {
+  background-color: rgb(197, 21, 21);
+  max-width: 100%;
+  color: white;
+  height: 23vh;
+}
+article img {
+  width: 35%;
+  height: 23vh;
+  float: right;
+}
+article p {
+  margin-left: 10px;
+  padding: 10px 0;
+  max-height: 85%;
+  width: 60%;
+  text-shadow: 1px 3px 2px black;
+  overflow: hidden;
+}
+
+/* card footer */
+footer {
+  text-align: center;
+  text-shadow: 1px 1px 1px black;
+}
+footer p {
+  font-size: 1.08rem;
+}
